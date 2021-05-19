@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>O meu primeiro JavaScript</title>
+  </head>
+  <body>
+    <script>
+    var palavra = "garrafas";
+    var contagem = 99;
+    while (contagem > 0) {
+      console.log(contagem + " " + palavra + " de cerveja na parede,", + contagem + " " + palavra + " de cerveja.");
+      console.log("Tira uma, e passa-a por aí...");
+      contagem = contagem - 1;
+      if (contagem > 0) {
+        console.log(contagem + " " + palavra + " de cerveja na parede.");
+      }
+      else if (contagem == 0) {
+        console.log("Acabaram-se as " + palavra + " de cerveja na parede.");
+      }
+    }
+    </script>
+  </body>
+</html>
