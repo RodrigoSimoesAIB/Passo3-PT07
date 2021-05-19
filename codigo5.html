@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <script>
+      function calcularArea(r) {
+        var area;
+        if (r <= 0) {
+          return 0;
+        }
+        else {
+          area = Math.PI * r * r;
+          return area;
+        }
+      }
+      var raio = 5.2;
+      var aArea = calcularArea(raio);
+      console.log("A área é: " + aArea);
+    </script>
+  </body>
+</html>
